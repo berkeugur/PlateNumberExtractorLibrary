@@ -34,41 +34,41 @@ dotnet add package System.Text.Json
 
 
 Usage
-Step 1: Configure Dependencies
-Register IHttpClientFactory using Microsoft.Extensions.DependencyInjection.
+## STEP 1. Configure Dependencies
+ Register IHttpClientFactory using Microsoft.Extensions.DependencyInjection.
 
-Step 2: Instantiate the Extractor
-Create an instance of PlateNumberExtractor with your API key and HTTP client factory.
-'''
+## Step 2: Instantiate the Extractor
+- Create an instance of PlateNumberExtractor with your API key and HTTP client factory.
+
 Example Code:
-using PlateNumberExtractorLibrary;
-using Microsoft.Extensions.DependencyInjection;
-using System.Net.Http;
+    
+    using PlateNumberExtractorLibrary;
+    using Microsoft.Extensions.DependencyInjection;
+    using System.Net.Http;
 
-class Program
-{
-    static async Task Main(string[] args)
+    class Program
     {
-        var serviceCollection = new ServiceCollection();
-        serviceCollection.AddHttpClient();
-        var serviceProvider = serviceCollection.BuildServiceProvider();
+        static async Task Main(string[] args)
+        {
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddHttpClient();
+            var serviceProvider = serviceCollection.BuildServiceProvider();
 
-        var httpClientFactory = serviceProvider.GetRequiredService<IHttpClientFactory>();
-        var apiKey = "your_openai_api_key";
+            var httpClientFactory = serviceProvider.GetRequiredService<IHttpClientFactory>();
+            var apiKey = "your_openai_api_key";
 
-        var extractor = new PlateNumberExtractor(httpClientFactory, apiKey);
+            var extractor = new PlateNumberExtractor(httpClientFactory, apiKey);
 
-        var base64Image = "your_base64_image_string";
-        var plateNumber = await extractor.ExtractPlateNumberFromBase64Image(base64Image);
+            var base64Image = "your_base64_image_string";
+            var plateNumber = await extractor.ExtractPlateNumberFromBase64Image(base64Image);
 
-        Console.WriteLine($"Extracted Plate Number: {plateNumber}");
+            Console.WriteLine($"Extracted Plate Number: {plateNumber}");
+        }
     }
-}
-'''
+
 
 API Reference
 PlateNumberExtractor Class
 Constructor:
-'''
+
     PlateNumberExtractor(IHttpClientFactory httpClientFactory, string apiKey)
-'''
