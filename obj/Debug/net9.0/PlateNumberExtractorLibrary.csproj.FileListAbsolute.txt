@@ -1,0 +1,12 @@
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.AssemblyInfoInputs.cache
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.AssemblyInfo.cs
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.csproj.CoreCompileInputs.cache
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/bin/Debug/net9.0/PlateNumberExtractorLibrary.deps.json
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/bin/Debug/net9.0/PlateNumberExtractorLibrary.dll
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/bin/Debug/net9.0/PlateNumberExtractorLibrary.pdb
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.csproj.AssemblyReference.cache
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.dll
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/refint/PlateNumberExtractorLibrary.dll
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/PlateNumberExtractorLibrary.pdb
+/Users/iberkeugur/Documents/dotnetprojects/PlateNumberExtractor/PlateNumberExtractorLibrary/obj/Debug/net9.0/ref/PlateNumberExtractorLibrary.dll
