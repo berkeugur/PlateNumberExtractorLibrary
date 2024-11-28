@@ -1,0 +1,55 @@
+# Build Results
+/bin/
+/obj/
+
+/# User-specific files
+.vs/
+/.vscode/
+/.idea/
+
+# User-specific settings
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+Thumbs.db
+Desktop.ini
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Web Apps
+# These are files that are uploaded to Azure web apps
+wwwroot/
+
+# npm package directories
+node_modules/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# Rider config directory
+.idea/*
+
+# Visual Studio for Mac
+.vscode/
+
+# Files created by Visual Studio for Mac
+.vscode/
+
+# ASP.NET Temporary files
+App_Data/ 
